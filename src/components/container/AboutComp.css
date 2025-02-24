@@ -1,0 +1,33 @@
+.aboutComp {
+    background-color: #252526;
+    width: 350px;
+    height: 35px;
+    font-size: 12px;
+
+    display: grid;
+    grid-template-columns: 25px auto;
+    grid-template-rows: 29px 6px;
+    grid-template-areas: 'a2 a1' 'a3 a3';
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.aboutComp > a {
+    grid-area: a1;
+    text-decoration: none;
+    color: #B3B2B2;
+    padding: 5px 20px;
+}
+
+.aboutComp > img {
+    margin-top: 3px;
+    padding-left: 10px;
+    grid-area: a2;
+    width:25px;
+}
+
+.line {
+    grid-area: a3;
+    background-color: #3692FC;
+    border-radius: 0px 0px 6px 6px;
+}

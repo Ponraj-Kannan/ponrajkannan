@@ -1,0 +1,78 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B3B2B2;
+    /* background-color: salmon; */
+}
+
+.home-info {
+    /* background-color: rgba(250, 128, 114, 0.505); */
+    width: 55%;
+    height: 100%;
+}
+
+.home-about {
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-about > div {
+    /* background-color: #3692FC; */
+    width: 100%;
+    height: auto;
+}
+
+.home-info > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    font-size: 30px;
+    color: #D9D9D9;
+}
+
+.about-role {
+    margin-top: -30px;
+}
+
+
+.home-con1 {
+    margin-top: 30px;
+    /* background-color: salmon; */
+    padding-left: 12%;
+    width: 88%;
+    height: 100px;
+}
+.home-con2 > p, .home-con3 > p{
+    padding-left: 7%;
+}
+.home-con2 {
+    /* background-color:seagreen; */
+    padding-left: 5%;
+    width: 95%;
+    height: 150px;
+}
+
+.home-con2 > ul, .home-con3 > ul {
+    font-size: 13px;
+    list-style-type: none;
+    color: #3692FC;
+}
+.home-con3 {
+    /* background-color:steelblue; */
+    padding-left: 5%;
+    width: 95%;
+    height: auto;
+}
+.home-con3 > ul > li > span {
+    padding-left: 10px;
+    color: #B3B2B2;
+}
